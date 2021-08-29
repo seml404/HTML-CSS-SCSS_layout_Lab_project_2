@@ -1,0 +1,203 @@
+@import "../homework/style.css";
+@import "../homework/index.css";
+@import "../homework/product.css";
+@import "../homework/catalogue.css";
+
+/* REGISTRATION.HTML STYLES */
+
+
+
+.registration_main__content {
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 96px;
+
+}
+
+.registration_main__content__left {
+    margin-right: 128.5px;
+}
+
+
+
+.registration_main__content__left__form__text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.registration_main__content__left__form__input {
+    width: 100%;
+    max-width: 360px;
+    height: 45px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    border: 1px solid #A4A4A4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 16px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+
+.registration_main__content__left__form__radiobox {
+    display: flex;
+    align-items: center;
+    padding-top: 11.5px;
+    padding-bottom: 33px;
+}
+
+.registration_main__content__left__form__input_radio {
+    border: 1px solid #A4A4A4;
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+}
+
+
+.radio_text {
+    display: block;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+
+.registration_main__content__left__form__text_small {
+    margin-top: -4.5px;
+    padding-bottom: 39px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+
+.registration_main__content__left__button {
+    background: #F16D7F;
+    width: 100%;
+    Width: 167px;
+    Height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.registration_main__content__left__button_text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-right: 20px;
+    padding-top: 22px;
+    margin-bottom: 21px;
+    text-transform: uppercase;
+}
+
+.registration_main__content__right__list {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    list-style: none;
+}
+
+.registration_main__content__right__list_desc {
+    margin-top: 22px;
+    margin-bottom: 21px;
+}
+
+.registration_main__content__list_li {
+    margin-bottom: 16px;
+}
+
+.registration_main__content__list_li:before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: 0;
+    width: 20px;
+    height: 16px;
+    margin-right: 23px;
+}
+
+/* ADAPTIVE VERSIONS */
+
+@media (max-width: 1024px) {
+
+    .registration_main__content {
+        padding-top: 40px;
+    }
+
+    .registration_main__content__left {
+        margin-right: 22px;
+        width: 50%;
+    }
+
+    .registration_main__content__right {
+        width: 50%;
+    }
+
+    .registration_main__content__right__list {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .registration_main__content__right__list_desc {
+        margin-top: 32px;
+    }
+
+}
+
+@media (max-width: 667px) {
+
+    .top_info_catalogue__content {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .registration_main__content {
+        flex-direction: column;
+    }
+
+    .registration_main__content__left,
+    .registration_main__content__right {
+        width: 100%;
+    }
+
+    .registration_main__content__left__form__radiobox {
+        padding-bottom: 38.5px;
+    }
+
+    .registration_main__content__right {
+        padding-top: 40px;
+    }
+
+    /* footer */
+
+    footer {
+        height: 143px;
+    }
+
+    .footer_content {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        padding-top: 43px;
+
+    }
+
+    .footer_content__social_media_icons {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+}

@@ -1,0 +1,50 @@
+/* GENERAL STYLES */
+
+ul,
+ol {
+    all: unset;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    all: unset;
+    font-family: "Lato", sans-serif;
+}
+
+.img {
+    display: block;
+}
+
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.footer_pusher {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+
+.wrapper {
+    max-width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
